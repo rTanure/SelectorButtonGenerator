@@ -1,0 +1,94 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+body {
+	background-color: #1E42E6;
+	font-family: arial;
+}
+
+/**Input number of selectors**/
+div#container {
+	background-color: white;
+	width: 500px;
+	margin: 100px auto;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	border: 2px solid black;
+	background-color: white;
+}
+
+input#numberOfSelectorsInput{
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 25px;
+	border-bottom: 2px solid black;
+	margin-top: 15px;
+}
+
+input#createSelectors {
+	padding: 10px 15px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 20px;
+	background-color: #27AD23;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+input#createSelectors:hover{
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+/**Input number of selectors END**/
+
+/**Selectors**/
+
+div.selector {
+	margin: 10px auto;
+	height: 50px;
+	width: 100px;
+	border: 3px solid black;
+	border-radius: 25px;
+	background-color: #c10a0a;
+	box-shadow: 2px 2px 5px black;
+}
+
+div.selectorSphere {
+	height: 44px;
+	width: 44px;
+	border-radius: 22px;
+	margin: 2px;
+	border: 1px solid black;
+	background-color: #d0cfcf;
+	float: left;
+}
+
+/**Selectors END**/
+
+/**Selected selector number**/
+
+div#selectedSelector {
+	background-color: white;
+	position: fixed;
+	padding: 10px;
+	border-radius: 5px;
+    left: -5px;
+	bottom: -5px;
+	color: black;
+}
